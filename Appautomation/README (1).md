@@ -44,13 +44,12 @@ Before you can start performing **Python** automation testing with **Selenium**,
 **Step 1:** Clone the LambdaTest’s python-selenium-sample repository and navigate to the code directory as shown below:
 
 ```bash
-git clone https://github.com/LambdaTest/python-selenium-sample
-cd python-selenium-sample
+git clone https://github.com/lambdatestsupport/Appautomation.git
+cd Appautomation
 ```
 
 **Step 2:** Download the driver from the link, or you can use **pip** to install it.
 ```bash
-pip install selenium
 export PYTHONWARNINGS="ignore:Unverified HTTPS request"   //Disable ssl warning
 ```
 
@@ -71,17 +70,6 @@ Make sure you have your LambdaTest credentials with you to run test automation s
   set LT_USERNAME="YOUR_USERNAME" 
   set LT_ACCESS_KEY="YOUR ACCESS KEY"
   ```
-
-## Run Your First Test
-
->**Test Scenario**: The [lambdatest.py](https://github.com/LambdaTest/python-selenium-sample/blob/master/lambdatest.py) sample script tests a simple to-do application with basic functionalities like mark items as done, add items in a list, calculate total pending items etc.
-
-### Configuration Of Your Test Capabilities
-
-**Step 4:** In the python script, you need to update your test capabilities. In this code, we are passing browser, browser version, and operating system information, along with LambdaTest Selenium grid capabilities via capabilities object. 
-
-The capabilities object in the above code are defined as:
-
 ```python
 capabilities = {
         "build": "your build name",
@@ -98,11 +86,11 @@ You can generate capabilities for your test requirements with the help of our in
 **Step 5:** You would need to execute the below command in your terminal/cmd.
 
 ```bash
-python lambdatest.py
+python index.py
 ```
 For python3 use
 ```bash
-python3 lambdatest.py
+python3 index.py
 ```
 
 Your test results would be displayed on the test console (or command-line interface if you are using terminal/cmd) and on LambdaTest automation dashboard. 
