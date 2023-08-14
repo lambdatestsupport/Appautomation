@@ -17,29 +17,7 @@ desired_caps =[
     "network": False,
     "visual": True,
     "video": True
-    },
-    {
-    "deviceName": "Galaxy .*",
-    "platformName": "Android",
-    "platformVersion": "10",
-    "isRealMobile": True,
-    "build": "Python Vanilla Android",
-    "name": "Sample Test - Python",
-    "network": False,
-    "visual": True,
-    "video": True              
-    },
-    {
-    "deviceName": "Galaxy .*",
-    "platformName": "Android",
-    "platformVersion": "10",
-    "isRealMobile": True,
-    "build": "Python Vanilla Android",
-    "name": "Sample Test - Python",
-    "network": False,
-    "visual": True,
-    "video": True              
-    }     
+    }  
 ]
 
 def startingTest(desired_caps):
